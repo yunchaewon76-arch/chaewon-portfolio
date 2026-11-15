@@ -91,7 +91,134 @@ button:focus-visible,a:focus-visible,summary:focus-visible{outline-color:#ea0029
 @media print{.hero{background:#fff!important}.hero h1 em,.section-heading em{box-shadow:none!important}.project-card{border-radius:0!important}}
 
 </style>
-  <script defer>
+  <link rel="stylesheet" href="./strategy.css">
+  
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">본문으로 건너뛰기</a>
+  <header class="site-header" id="top">
+    <div class="header-inner container">
+      <a class="brand" href="#top" aria-label="윤채원 포트폴리오 홈">
+        <span class="brand-mark">YCW<span class="brand-period">.</span></span>
+        <span class="brand-tag">PERSONAL PORTFOLIO</span>
+      </a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#about" data-i18n="navAbout">소개</a>
+        <a href="#experience" data-i18n="navExperience">경력</a>
+        <a href="#projects" data-i18n="navProjects">프로젝트</a>
+        <a href="#expertise" data-i18n="navExpertise">역량</a>
+        <a href="#contact" data-i18n="navContact">연락처</a>
+      </nav>
+      <div class="header-actions">
+        <div class="language-switch" role="group" aria-label="Choose website language">
+          <button type="button" data-lang="ko" lang="ko" title="한국어" aria-label="한국어" aria-pressed="true">한국어</button>
+          <button type="button" data-lang="ru" lang="ru" title="Русский" aria-label="Русский" aria-pressed="false">RU</button>
+          <button type="button" data-lang="en" lang="en" title="English" aria-label="English" aria-pressed="false">EN</button>
+        </div>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobile-menu" aria-label="Mobile navigation" hidden>
+      <a href="#about" data-i18n="navAbout">소개</a>
+      <a href="#experience" data-i18n="navExperience">경력</a>
+      <a href="#projects" data-i18n="navProjects">프로젝트</a>
+      <a href="#expertise" data-i18n="navExpertise">역량</a>
+      <a href="#contact" data-i18n="navContact">연락처</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-grain" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow light"><span class="eyebrow-line"></span><span data-i18n="heroLabel">MARKETING · PRODUCT · LOCALIZATION</span></p>
+          <p class="hero-person" data-i18n-html="heroName">윤채원 <span>YOON CHAE WON</span></p>
+          <h1 id="hero-title" data-i18n-html="heroTitle">시장에 대한 이해를<br>실행 가능한 <em>전략</em>으로.</h1>
+          <p class="hero-description" data-i18n="heroDescription">러시아 시장 분석부터 제품 콘텐츠 현지화, 영업 지원까지. 고객과 비즈니스를 연결하는 마케팅을 설계합니다.</p>
+          <div class="hero-buttons">
+            <a class="button button-light" href="#projects"><span data-i18n="viewProjects">프로젝트 보기</span><span aria-hidden="true">↗</span></a>
+            <a class="button button-ghost" href="#experience"><span data-i18n="viewExperience">경력 살펴보기</span><span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-keywords"><span>MARKET INSIGHT</span><span>PRODUCT LOCALIZATION</span><span>SALES ENABLEMENT</span></div>
+        </div>
+        <div class="hero-visual" aria-label="Strategy, Localization and Execution illustration">
+          <div class="visual-orbit orbit-one"></div>
+          <div class="visual-orbit orbit-two"></div>
+          <div class="visual-panel">
+            <div class="visual-panel-top"><span>01 / MARKET-TO-ACTION</span><span class="online-dot"></span></div>
+            <div class="visual-headline">INSIGHT<br><span>TO IMPACT</span><b>.</b></div>
+            <div class="flow-line"><span class="flow-step">RESEARCH</span><span class="flow-arrow">→</span><span class="flow-step">LOCALIZE</span><span class="flow-arrow">→</span><span class="flow-step">ENABLE</span></div>
+            <div class="visual-chart" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            <div class="visual-panel-bottom"><span>KR <span class="arrow-exchange">↔</span> RU</span><span>RESEARCH · DESIGN · BUSINESS</span></div>
+          </div>
+          <div class="floating-note"><span class="note-star">✳</span><div><strong data-i18n="visualNoteStrong">시장을 읽고</strong><small data-i18n="visualNoteSmall">현장에 적용하는 기획</small></div></div>
+        </div>
+      </div>
+      <div class="hero-bottom container"><span>SELECTED EXPERIENCE / 2022—PRESENT</span><a href="#about" aria-label="Scroll down">SCROLL TO EXPLORE <span aria-hidden="true">↓</span></a></div>
+    </section>
+
+    <section class="facts-strip" aria-label="Profile at a glance">
+      <div class="container facts-grid">
+        <div><span class="fact-title" data-i18n="factOneValue">러시아 시장</span><span class="fact-sub" data-i18n="factOneLabel">현지화 및 경쟁사 분석</span></div>
+        <div><span class="fact-title" data-i18n="factTwoValue">3개 주요 프로젝트</span><span class="fact-sub" data-i18n="factTwoLabel">전략 · 콘텐츠 · 업무 개선</span></div>
+        <div><span class="fact-title" data-i18n="factThreeValue">한 · 러 · 영</span><span class="fact-sub" data-i18n="factThreeLabel">3개 언어 커뮤니케이션</span></div>
+        <div><span class="fact-title">HSE UNIVERSITY</span><span class="fact-sub" data-i18n="factFourLabel">Communication Design · 2025</span></div>
+      </div>
+    </section>
+
+    <section class="section section-about" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-top"><span class="section-number">01 / ABOUT</span><span class="section-rule"></span></div>
+        <div class="about-layout">
+          <div><p class="section-kicker" data-i18n="aboutKicker">ABOUT ME</p><h2 id="about-title" class="section-heading" data-i18n-html="aboutTitle">시장을 이해하고,<br><em>제품의 가치</em>를 전달합니다.</h2></div>
+          <div class="about-text"><p class="lead" data-i18n="aboutLead">저는 러시아 시장에서 한국 기업의 제품과 고객을 연결하는 업무를 경험해 온 마케터입니다.</p><p data-i18n="aboutBody">경쟁사 분석을 통해 현지 시장의 특성을 파악하고, 본사의 제품 정보를 러시아 고객에게 맞는 언어와 방식으로 재구성했습니다. 또한 영업 현장의 문제를 발견해 직접 활용 가능한 도구를 만드는 일에도 참여해 왔습니다.</p><p data-i18n="aboutFoot">명확한 분석, 이해하기 쉬운 커뮤니케이션, 실제 업무에 도움이 되는 실행을 중요하게 생각합니다.</p></div>
+        </div>
+        <div class="principle-grid" id="principles"></div>
+      </div>
+    </section>
+
+    <section class="section section-experience" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <div class="section-top"><span class="section-number">02 / EXPERIENCE</span><span class="section-rule"></span></div>
+        <div class="section-heading-row"><div><p class="section-kicker" data-i18n="experienceKicker">PROFESSIONAL JOURNEY</p><h2 id="experience-title" class="section-heading" data-i18n="experienceTitle">경력과 실무 경험</h2></div><p class="section-note" data-i18n="experienceNote">현재 업무부터 이전 인턴십과 비즈니스 통역 경험까지</p></div>
+        <div class="timeline" id="experience-list"></div>
+        <div class="additional-experience"><div><span class="mini-label">ADDITIONAL EXPERIENCE</span><h3 data-i18n="additionalTitle">한·러 비즈니스 통역</h3><p data-i18n="additionalBody">의료기기, 화장품, 게임, 디지털미디어 등 다양한 산업의 B2B 상담 및 행사에서 통역을 담당했습니다.</p></div><span class="additional-date">2022 — 2025</span></div>
+      </div>
+    </section>
+
+    <section class="section section-projects" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-top"><span class="section-number">03 / SELECTED WORK</span><span class="section-rule"></span></div>
+        <div class="section-heading-row"><div><p class="section-kicker" data-i18n="projectsKicker">CASE STUDIES</p><h2 id="projects-title" class="section-heading" data-i18n-html="projectsTitle">문제에서 출발해<br><em>실행으로 연결한</em> 프로젝트</h2></div><p class="section-note" data-i18n="projectsNote">프로젝트를 열어 배경, 담당 역할, 결과를 확인해 보세요.</p></div>
+        <div class="project-list" id="projects-list"></div>
+        <p class="project-disclaimer" data-i18n="projectDisclaimer">정량 성과는 검증된 자료가 준비된 뒤 추가합니다. 내부 가격·원가 등 기밀 정보는 포함하지 않았습니다.</p>
+      </div>
+    </section>
+
+    <section class="section section-expertise" id="expertise" aria-labelledby="expertise-title">
+      <div class="container">
+        <div class="section-top"><span class="section-number">04 / EXPERTISE</span><span class="section-rule"></span></div>
+        <div class="section-heading-row"><div><p class="section-kicker" data-i18n="expertiseKicker">SKILLS & TOOLS</p><h2 id="expertise-title" class="section-heading" data-i18n="expertiseTitle">핵심 역량과 도구</h2></div></div>
+        <div class="expertise-grid" id="expertise-list"></div>
+        <div class="language-panel"><div><span class="mini-label" data-i18n="languageTitle">LANGUAGES</span><p data-i18n="languageIntro">다국어 환경에서의 비즈니스 커뮤니케이션</p></div><div class="spoken-languages" id="spoken-languages"></div></div>
+      </div>
+    </section>
+
+    <section class="section section-education" id="education" aria-labelledby="education-title">
+      <div class="container">
+        <div class="section-top"><span class="section-number">05 / EDUCATION</span><span class="section-rule"></span></div>
+        <div class="education-grid"><div><p class="section-kicker">EDUCATION & LEADERSHIP</p><h2 id="education-title" class="section-heading" data-i18n="educationTitle">학력과 리더십</h2></div><div class="edu-items"><article><span class="edu-year">2025</span><h3>HSE University <small>(Higher School of Economics)</small></h3><p data-i18n="eduDegree">커뮤니케이션 디자인 학사 · 모스크바</p></article><article><span class="edu-year">2022 — 2023</span><h3 data-i18n="leaderTitle">HSE 한인 학생회장</h3><p data-i18n="leaderBody">2022년 9월부터 2023년 7월까지 학생회 운영 및 관리</p></article></div></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-layout"><div><p class="eyebrow light">06 / CONTACT</p><h2 id="contact-title" data-i18n-html="contactTitle">새로운 도전을 위한<br><em>대화를 시작해요.</em></h2><p data-i18n="contactText">기업과 프로젝트의 목표를 이해하고 실질적인 가치를 만드는 일을 지향합니다.</p></div><div class="contact-actions"><p class="contact-status" data-i18n="contactStatus">연락처는 사이트 공개 전 추가 예정입니다.</p><button id="print-btn" type="button" class="button button-light"><span data-i18n="savePdf">현재 언어로 PDF 저장</span><span aria-hidden="true">↗</span></button><p class="print-hint" data-i18n="printHint">클릭하면 브라우저 인쇄 창이 열립니다. 'PDF로 저장'을 선택하세요.</p></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><span class="footer-wordmark">YOON CHAE WON<span>.</span></span><span data-i18n="footerCopy">Marketing · Product Localization · Market Research</span><a href="#top" data-i18n="backTop">맨 위로 ↑</a></div></footer>
+<script>
 'use strict';
 
 /*
@@ -271,7 +398,7 @@ const content = {
 };
 
 const $ = (selector, root=document) => root.querySelector(selector);
-const $$ = (selector, root=document) => Array.from(root.querySelectorAll(selector));
+const $ = (selector, root=document) => Array.from(root.querySelectorAll(selector));
 const validLanguages = ['ko','ru','en'];
 const escapeText = (value) => String(value).replace(/[&<>"']/g, character => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[character]));
 const readLanguage = () => {
@@ -311,15 +438,15 @@ function renderContact(t) {
 }
 function setLanguage(lang) {
   if(!validLanguages.includes(lang)) return;
-  const openIndexes = $$('.project-details').reduce((out,el,i)=> { if(el.open) out.push(i); return out; },[]);
+  const openIndexes = $('.project-details').reduce((out,el,i)=> { if(el.open) out.push(i); return out; },[]);
   currentLanguage = lang;
   const t = content[lang];
   document.documentElement.lang = lang;
   document.title = t.pageTitle;
   $('meta[name="description"]').setAttribute('content', t.metaDescription);
-  $$('[data-i18n]').forEach(el=>{const k=el.dataset.i18n;if(Object.prototype.hasOwnProperty.call(t,k)) el.textContent=t[k]});
-  $$('[data-i18n-html]').forEach(el=>{const k=el.dataset.i18nHtml;if(Object.prototype.hasOwnProperty.call(t,k)) el.innerHTML=t[k]});
-  $$('[data-lang]').forEach(el=>el.setAttribute('aria-pressed',String(el.dataset.lang===lang)));
+  $('[data-i18n]').forEach(el=>{const k=el.dataset.i18n;if(Object.prototype.hasOwnProperty.call(t,k)) el.textContent=t[k]});
+  $('[data-i18n-html]').forEach(el=>{const k=el.dataset.i18nHtml;if(Object.prototype.hasOwnProperty.call(t,k)) el.innerHTML=t[k]});
+  $('[data-lang]').forEach(el=>el.setAttribute('aria-pressed',String(el.dataset.lang===lang)));
   $('.brand').setAttribute('aria-label', lang==='ko'?'윤채원 포트폴리오 홈':lang==='ru'?'Портфолио Yoon Chae Won, главная':'Yoon Chae Won portfolio home');
   $('.menu-toggle').setAttribute('aria-label',$('.menu-toggle').getAttribute('aria-expanded')==='true'?t.menuClose:t.menuLabel);
   renderPrinciples(t);renderExperience(t);renderProjects(t,openIndexes);renderExpertise(t);renderContact(t);
@@ -332,18 +459,18 @@ function setLanguage(lang) {
 }
 
 function closeMobileMenu(){const btn=$('.menu-toggle');btn.setAttribute('aria-expanded','false');$('#mobile-menu').hidden=true;btn.setAttribute('aria-label',content[currentLanguage].menuLabel)}
-$$('[data-lang]').forEach(btn => btn.addEventListener('click',()=>setLanguage(btn.dataset.lang)));
+$('[data-lang]').forEach(btn => btn.addEventListener('click',()=>setLanguage(btn.dataset.lang)));
 $('.menu-toggle').addEventListener('click',()=>{
   const open=$('.menu-toggle').getAttribute('aria-expanded')==='true';
   $('.menu-toggle').setAttribute('aria-expanded',String(!open));
   $('#mobile-menu').hidden=open;
   $('.menu-toggle').setAttribute('aria-label',open?content[currentLanguage].menuLabel:content[currentLanguage].menuClose);
 });
-$$('#mobile-menu a').forEach(a=>a.addEventListener('click',closeMobileMenu));
+$('#mobile-menu a').forEach(a=>a.addEventListener('click',closeMobileMenu));
 window.addEventListener('keydown',e=>{if(e.key==='Escape')closeMobileMenu()});
 window.addEventListener('resize',()=>{if(window.innerWidth>900)closeMobileMenu()});
 $('#print-btn').addEventListener('click',()=>{
-  const panels=$$('.project-details');const old=panels.map(x=>x.open);
+  const panels=$('.project-details');const old=panels.map(x=>x.open);
   panels.forEach(el=>el.open=true);
   const restore=()=>{panels.forEach((el,i)=>el.open=old[i]);window.removeEventListener('afterprint',restore)};
   window.addEventListener('afterprint',restore);
@@ -352,130 +479,6 @@ $('#print-btn').addEventListener('click',()=>{
 setLanguage(currentLanguage);
 
 </script>
-</head>
-<body>
-  <a class="skip-link" href="#main" data-i18n="skip">본문으로 건너뛰기</a>
-  <header class="site-header" id="top">
-    <div class="header-inner container">
-      <a class="brand" href="#top" aria-label="윤채원 포트폴리오 홈">
-        <span class="brand-mark">YCW<span class="brand-period">.</span></span>
-        <span class="brand-tag">PERSONAL PORTFOLIO</span>
-      </a>
-      <nav class="desktop-nav" aria-label="Primary navigation">
-        <a href="#about" data-i18n="navAbout">소개</a>
-        <a href="#experience" data-i18n="navExperience">경력</a>
-        <a href="#projects" data-i18n="navProjects">프로젝트</a>
-        <a href="#expertise" data-i18n="navExpertise">역량</a>
-        <a href="#contact" data-i18n="navContact">연락처</a>
-      </nav>
-      <div class="header-actions">
-        <div class="language-switch" role="group" aria-label="Choose website language">
-          <button type="button" data-lang="ko" lang="ko" title="한국어" aria-label="한국어" aria-pressed="true">한국어</button>
-          <button type="button" data-lang="ru" lang="ru" title="Русский" aria-label="Русский" aria-pressed="false">RU</button>
-          <button type="button" data-lang="en" lang="en" title="English" aria-label="English" aria-pressed="false">EN</button>
-        </div>
-        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
-      </div>
-    </div>
-    <nav class="mobile-nav" id="mobile-menu" aria-label="Mobile navigation" hidden>
-      <a href="#about" data-i18n="navAbout">소개</a>
-      <a href="#experience" data-i18n="navExperience">경력</a>
-      <a href="#projects" data-i18n="navProjects">프로젝트</a>
-      <a href="#expertise" data-i18n="navExpertise">역량</a>
-      <a href="#contact" data-i18n="navContact">연락처</a>
-    </nav>
-  </header>
-
-  <main id="main">
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-grain" aria-hidden="true"></div>
-      <div class="container hero-grid">
-        <div class="hero-content">
-          <p class="eyebrow light"><span class="eyebrow-line"></span><span data-i18n="heroLabel">MARKETING · PRODUCT · LOCALIZATION</span></p>
-          <p class="hero-person" data-i18n-html="heroName">윤채원 <span>YOON CHAE WON</span></p>
-          <h1 id="hero-title" data-i18n-html="heroTitle">시장에 대한 이해를<br>실행 가능한 <em>전략</em>으로.</h1>
-          <p class="hero-description" data-i18n="heroDescription">러시아 시장 분석부터 제품 콘텐츠 현지화, 영업 지원까지. 고객과 비즈니스를 연결하는 마케팅을 설계합니다.</p>
-          <div class="hero-buttons">
-            <a class="button button-light" href="#projects"><span data-i18n="viewProjects">프로젝트 보기</span><span aria-hidden="true">↗</span></a>
-            <a class="button button-ghost" href="#experience"><span data-i18n="viewExperience">경력 살펴보기</span><span aria-hidden="true">↓</span></a>
-          </div>
-          <div class="hero-keywords"><span>MARKET INSIGHT</span><span>PRODUCT LOCALIZATION</span><span>SALES ENABLEMENT</span></div>
-        </div>
-        <div class="hero-visual" aria-label="Strategy, Localization and Execution illustration">
-          <div class="visual-orbit orbit-one"></div>
-          <div class="visual-orbit orbit-two"></div>
-          <div class="visual-panel">
-            <div class="visual-panel-top"><span>01 / MARKET-TO-ACTION</span><span class="online-dot"></span></div>
-            <div class="visual-headline">INSIGHT<br><span>TO IMPACT</span><b>.</b></div>
-            <div class="flow-line"><span class="flow-step">RESEARCH</span><span class="flow-arrow">→</span><span class="flow-step">LOCALIZE</span><span class="flow-arrow">→</span><span class="flow-step">ENABLE</span></div>
-            <div class="visual-chart" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
-            <div class="visual-panel-bottom"><span>KR <span class="arrow-exchange">↔</span> RU</span><span>RESEARCH · DESIGN · BUSINESS</span></div>
-          </div>
-          <div class="floating-note"><span class="note-star">✳</span><div><strong data-i18n="visualNoteStrong">시장을 읽고</strong><small data-i18n="visualNoteSmall">현장에 적용하는 기획</small></div></div>
-        </div>
-      </div>
-      <div class="hero-bottom container"><span>SELECTED EXPERIENCE / 2022—PRESENT</span><a href="#about" aria-label="Scroll down">SCROLL TO EXPLORE <span aria-hidden="true">↓</span></a></div>
-    </section>
-
-    <section class="facts-strip" aria-label="Profile at a glance">
-      <div class="container facts-grid">
-        <div><span class="fact-title" data-i18n="factOneValue">러시아 시장</span><span class="fact-sub" data-i18n="factOneLabel">현지화 및 경쟁사 분석</span></div>
-        <div><span class="fact-title" data-i18n="factTwoValue">3개 주요 프로젝트</span><span class="fact-sub" data-i18n="factTwoLabel">전략 · 콘텐츠 · 업무 개선</span></div>
-        <div><span class="fact-title" data-i18n="factThreeValue">한 · 러 · 영</span><span class="fact-sub" data-i18n="factThreeLabel">3개 언어 커뮤니케이션</span></div>
-        <div><span class="fact-title">HSE UNIVERSITY</span><span class="fact-sub" data-i18n="factFourLabel">Communication Design · 2025</span></div>
-      </div>
-    </section>
-
-    <section class="section section-about" id="about" aria-labelledby="about-title">
-      <div class="container">
-        <div class="section-top"><span class="section-number">01 / ABOUT</span><span class="section-rule"></span></div>
-        <div class="about-layout">
-          <div><p class="section-kicker" data-i18n="aboutKicker">ABOUT ME</p><h2 id="about-title" class="section-heading" data-i18n-html="aboutTitle">시장을 이해하고,<br><em>제품의 가치</em>를 전달합니다.</h2></div>
-          <div class="about-text"><p class="lead" data-i18n="aboutLead">저는 러시아 시장에서 한국 기업의 제품과 고객을 연결하는 업무를 경험해 온 마케터입니다.</p><p data-i18n="aboutBody">경쟁사 분석을 통해 현지 시장의 특성을 파악하고, 본사의 제품 정보를 러시아 고객에게 맞는 언어와 방식으로 재구성했습니다. 또한 영업 현장의 문제를 발견해 직접 활용 가능한 도구를 만드는 일에도 참여해 왔습니다.</p><p data-i18n="aboutFoot">명확한 분석, 이해하기 쉬운 커뮤니케이션, 실제 업무에 도움이 되는 실행을 중요하게 생각합니다.</p></div>
-        </div>
-        <div class="principle-grid" id="principles"></div>
-      </div>
-    </section>
-
-    <section class="section section-experience" id="experience" aria-labelledby="experience-title">
-      <div class="container">
-        <div class="section-top"><span class="section-number">02 / EXPERIENCE</span><span class="section-rule"></span></div>
-        <div class="section-heading-row"><div><p class="section-kicker" data-i18n="experienceKicker">PROFESSIONAL JOURNEY</p><h2 id="experience-title" class="section-heading" data-i18n="experienceTitle">경력과 실무 경험</h2></div><p class="section-note" data-i18n="experienceNote">현재 업무부터 이전 인턴십과 비즈니스 통역 경험까지</p></div>
-        <div class="timeline" id="experience-list"></div>
-        <div class="additional-experience"><div><span class="mini-label">ADDITIONAL EXPERIENCE</span><h3 data-i18n="additionalTitle">한·러 비즈니스 통역</h3><p data-i18n="additionalBody">의료기기, 화장품, 게임, 디지털미디어 등 다양한 산업의 B2B 상담 및 행사에서 통역을 담당했습니다.</p></div><span class="additional-date">2022 — 2025</span></div>
-      </div>
-    </section>
-
-    <section class="section section-projects" id="projects" aria-labelledby="projects-title">
-      <div class="container">
-        <div class="section-top"><span class="section-number">03 / SELECTED WORK</span><span class="section-rule"></span></div>
-        <div class="section-heading-row"><div><p class="section-kicker" data-i18n="projectsKicker">CASE STUDIES</p><h2 id="projects-title" class="section-heading" data-i18n-html="projectsTitle">문제에서 출발해<br><em>실행으로 연결한</em> 프로젝트</h2></div><p class="section-note" data-i18n="projectsNote">프로젝트를 열어 배경, 담당 역할, 결과를 확인해 보세요.</p></div>
-        <div class="project-list" id="projects-list"></div>
-        <p class="project-disclaimer" data-i18n="projectDisclaimer">정량 성과는 검증된 자료가 준비된 뒤 추가합니다. 내부 가격·원가 등 기밀 정보는 포함하지 않았습니다.</p>
-      </div>
-    </section>
-
-    <section class="section section-expertise" id="expertise" aria-labelledby="expertise-title">
-      <div class="container">
-        <div class="section-top"><span class="section-number">04 / EXPERTISE</span><span class="section-rule"></span></div>
-        <div class="section-heading-row"><div><p class="section-kicker" data-i18n="expertiseKicker">SKILLS & TOOLS</p><h2 id="expertise-title" class="section-heading" data-i18n="expertiseTitle">핵심 역량과 도구</h2></div></div>
-        <div class="expertise-grid" id="expertise-list"></div>
-        <div class="language-panel"><div><span class="mini-label" data-i18n="languageTitle">LANGUAGES</span><p data-i18n="languageIntro">다국어 환경에서의 비즈니스 커뮤니케이션</p></div><div class="spoken-languages" id="spoken-languages"></div></div>
-      </div>
-    </section>
-
-    <section class="section section-education" id="education" aria-labelledby="education-title">
-      <div class="container">
-        <div class="section-top"><span class="section-number">05 / EDUCATION</span><span class="section-rule"></span></div>
-        <div class="education-grid"><div><p class="section-kicker">EDUCATION & LEADERSHIP</p><h2 id="education-title" class="section-heading" data-i18n="educationTitle">학력과 리더십</h2></div><div class="edu-items"><article><span class="edu-year">2025</span><h3>HSE University <small>(Higher School of Economics)</small></h3><p data-i18n="eduDegree">커뮤니케이션 디자인 학사 · 모스크바</p></article><article><span class="edu-year">2022 — 2023</span><h3 data-i18n="leaderTitle">HSE 한인 학생회장</h3><p data-i18n="leaderBody">2022년 9월부터 2023년 7월까지 학생회 운영 및 관리</p></article></div></div>
-      </div>
-    </section>
-
-    <section class="contact-section" id="contact" aria-labelledby="contact-title">
-      <div class="container contact-layout"><div><p class="eyebrow light">06 / CONTACT</p><h2 id="contact-title" data-i18n-html="contactTitle">새로운 도전을 위한<br><em>대화를 시작해요.</em></h2><p data-i18n="contactText">기업과 프로젝트의 목표를 이해하고 실질적인 가치를 만드는 일을 지향합니다.</p></div><div class="contact-actions"><p class="contact-status" data-i18n="contactStatus">연락처는 사이트 공개 전 추가 예정입니다.</p><button id="print-btn" type="button" class="button button-light"><span data-i18n="savePdf">현재 언어로 PDF 저장</span><span aria-hidden="true">↗</span></button><p class="print-hint" data-i18n="printHint">클릭하면 브라우저 인쇄 창이 열립니다. 'PDF로 저장'을 선택하세요.</p></div></div>
-    </section>
-  </main>
-
-  <footer class="site-footer"><div class="container footer-inner"><span class="footer-wordmark">YOON CHAE WON<span>.</span></span><span data-i18n="footerCopy">Marketing · Product Localization · Market Research</span><a href="#top" data-i18n="backTop">맨 위로 ↑</a></div></footer>
+  <script src="./strategy.js"></script>
 </body>
 </html>
