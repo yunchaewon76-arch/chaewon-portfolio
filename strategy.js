@@ -136,6 +136,15 @@
   main.insertBefore(market,about);
   main.insertBefore(proj,about);
   main.insertBefore(exp,about);
+  const numbering = [
+    ['#experience .section-number','04 / EXPERIENCE'],
+    ['#about .section-number','05 / ABOUT'],
+    ['#expertise .section-number','06 / EXPERTISE'],
+    ['#education .section-number','07 / EDUCATION']
+  ];
+  numbering.forEach(([selector,label])=>{const el=document.querySelector(selector);if(el)el.textContent=label;});
+  const contactSectionLabel=document.querySelector('#contact .eyebrow');
+  if(contactSectionLabel) contactSectionLabel.textContent='08 / CONTACT';
   const navIds = ['contribution','market-approach','projects','experience','contact'];
   document.querySelectorAll('.desktop-nav,.mobile-nav').forEach(nav => {
     Array.from(nav.querySelectorAll('a')).forEach((link,i) => {if(navIds[i])link.href='#'+navIds[i];});
