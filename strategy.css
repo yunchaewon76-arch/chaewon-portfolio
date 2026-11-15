@@ -68,3 +68,14 @@
 @media(max-width:900px){.contrib-grid{grid-template-columns:1fr;gap:12px}.contrib-card{min-height:0}.contrib-card h3{min-height:0}.contrib-proof{margin-top:28px}.market-steps{grid-template-columns:1fr}.market-step{min-height:0}.market-step:not(:last-child){border-right:0;border-bottom:1px solid #334c59}.project-card{grid-template-columns:1fr}.project-card .project-visual{min-height:190px}.project-card .project-body{padding:28px}}
 @media(max-width:560px){.hero h1{font-size:clamp(32px,9vw,47px);letter-spacing:-1.7px}.contrib-card{padding:26px 20px}.market-process-title{padding:18px}.market-step{padding:24px 18px}.case-evidence-grid{grid-template-columns:1fr}.project-card .project-body{padding:22px 19px}.section-heading{font-size:clamp(28px,8vw,36px)}.contrib-card h3{font-size:21px}}
 @media print{.contrib-section,.market-section{background:#fff!important;color:#111!important}.contrib-grid,.market-steps{display:block}.contrib-card,.market-step{min-height:0;break-inside:avoid;margin-bottom:12px;padding:12px!important;border:1px solid #ddd}.contrib-card::before{display:none}.market-section .section-heading,.market-step h3{color:#111!important}.market-intro,.market-step p,.market-output,.market-caveat{color:#222!important}.market-process{background:#fff!important;border:0}.market-caveat{background:#fff!important}.project-card .project-visual{display:none!important}.case-evidence{padding-top:8px}.case-evidence-grid>div{background:#fff!important}}
+
+/* Real experience, fictional demonstration values. No company price data embedded. */
+.demo-project-visual{background:linear-gradient(160deg,#143a42,#061b27)!important;align-items:stretch!important;gap:15px!important;text-align:center}
+.demo-project-visual::before,.demo-project-visual::after{display:none!important}
+.demo-project-visual .demo-visual-label,.demo-project-visual .demo-visual-foot{color:#c4e6e2;font-size:10px;letter-spacing:1.5px;font-weight:820}
+.demo-project-visual img{display:block;max-width:220px;width:75%;height:315px;object-fit:cover;object-position:top;margin:auto;border:5px solid #eef6f3;border-radius:14px;box-shadow:0 24px 38px rgba(0,0,0,.23);background:#eef4f1}
+.case-cta{display:flex;gap:8px;align-items:center;justify-content:space-between;margin:22px 0 6px;padding:14px 17px;background:#061d29;color:#fff;font-size:13px;font-weight:800;text-decoration:none;transition:background .2s}
+.case-cta:hover{background:#173b4d}
+.case-cta span{border:1px solid #a3cfca;color:#c5e9e3;font-size:9px;letter-spacing:1px;padding:4px 7px;white-space:nowrap}
+@media(max-width:900px){.demo-project-visual{min-height:345px!important}.demo-project-visual img{height:230px;max-width:160px}}
+@media print{.case-cta{background:#fff!important;color:#111!important;border:1px solid #aaa}.demo-project-visual{display:none!important}}
