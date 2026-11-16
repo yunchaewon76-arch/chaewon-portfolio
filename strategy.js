@@ -41,7 +41,7 @@
       projects:{index:'03 / SELECTED WORK',eyebrow:'REAL PROJECTS · REAL CONTRIBUTIONS',title:'업무 현장에서 발견한 문제를<br><em>실제 결과물로 연결했습니다.</em>',intro:'각 사례는 문제 → 나의 역할 → 실행 → 실제 적용의 흐름으로 정리합니다. 비공개 수치와 자료는 제외했습니다.',
         cases:[
           {line:'문제 → 해결 → 현장 적용',summary:'반복적인 패키지 조건 수정과 승인 지연을 관찰하고, 목표 이익률을 고려한 AI 보조 도구를 제작했습니다.',contribution:'내 역할 · 문제 발견, 계산 도구 기획 및 제작',relevance:'직무 연결 · 가격 관련 업무 이해와 영업 프로세스 개선',asset:'포트폴리오용 데모 화면 · 모델명·가격·마진·수량은 모두 가상'},
-          {line:'제품 정보 → 현지화 → 영업 활용',summary:'인허가 및 판매 가능 여부에 따라 카탈로그를 구분하고, 의료진 대상 전문 용어와 USP 자료를 현지화했습니다.',contribution:'내 역할 · 카탈로그 2종, USP 포스터, 약 15종 패키지 플라이어 제작',relevance:'직무 연결 · Product Information, Localization, Sales Assets',asset:'카탈로그 및 USP 포스터 이미지: 공개 승인 후 추가'},
+          {line:'제품 정보 → 현지화 → 영업 활용',summary:'인허가 및 판매 가능 여부에 따라 카탈로그를 구분하고, 의료진 대상 전문 용어와 USP 자료를 현지화했습니다.',contribution:'내 역할 · 카탈로그 2종, USP 포스터, 약 15종 패키지 플라이어 제작',relevance:'직무 연결 · Product Information, Localization, Sales Assets',asset:'카탈로그 · USP · 플라이어의 공개용 재구성 시안 확인 가능'},
           {line:'경쟁사 분석 → UX 기획 → 사이트 적용',summary:'러시아 고객의 정보 탐색과 세미나 신청 과정을 고려해 본사 가이드라인 안에서 현지화 개선안을 기획했습니다.',contribution:'내 역할 · 경쟁사 조사, 현지화 콘텐츠, 세미나 신청 UX 기획',relevance:'직무 연결 · Market Analysis, Customer Insight, Localization',asset:'전후 비교 화면 및 기획 자료: 공개 승인 후 추가'}
         ]
       }
@@ -77,7 +77,7 @@
       projects:{index:'03 / SELECTED WORK',eyebrow:'РЕАЛЬНЫЕ ПРОЕКТЫ · КОНКРЕТНЫЙ ВКЛАД',title:'От выявления проблемы<br>к <em>рабочему решению.</em>',intro:'Каждый кейс раскрывает задачу, мою роль, действия и фактическое применение. Конфиденциальные показатели не публикуются.',
         cases:[
           {line:'Проблема → решение → применение',summary:'Заметив частые изменения условий пакетов и задержки согласования, я создала инструмент для расчёта вариантов с учётом целевой маржи.',contribution:'Моя роль · Выявление проблемы, концепция и разработка инструмента',relevance:'Для Product Specialist · Понимание ценовых вопросов и улучшение процессов',asset:'Демо-экраны для портфолио · все модели, цены, маржа и количества вымышлены'},
-          {line:'Информация → локализация → продажи',summary:'Разделила каталоги по статусу регистрации и доступности продукции; адаптировала терминологию и материалы с USP.',contribution:'Моя роль · 2 каталога, USP-постеры, около 15 флаеров',relevance:'Для Product Specialist · Информация о продукте, локализация, поддержка продаж',asset:'Каталоги и постеры: после согласования публикации'},
+          {line:'Информация → локализация → продажи',summary:'Разделила каталоги по статусу регистрации и доступности продукции; адаптировала терминологию и материалы с USP.',contribution:'Моя роль · 2 каталога, USP-постеры, около 15 флаеров',relevance:'Для Product Specialist · Информация о продукте, локализация, поддержка продаж',asset:'Публичные реконструкции каталога, USP и пакетных флаеров доступны в кейсе'},
           {line:'Анализ → UX → внедрение',summary:'На основе анализа конкурентов предложила изменения контента и пути регистрации на семинары с учётом бренд-стандартов.',contribution:'Моя роль · Анализ конкурентов, контент и планирование UX',relevance:'Для Product Specialist · Анализ рынка, понимание клиентов, локализация',asset:'Сравнение интерфейсов: после согласования публикации'}
         ]
       }
@@ -113,7 +113,7 @@
       projects:{index:'03 / SELECTED WORK',eyebrow:'REAL PROJECTS · REAL CONTRIBUTIONS',title:'From an observed challenge<br>to <em>a practical result.</em>',intro:'Each case follows the challenge, my role, execution, and real-world application. Confidential figures are excluded.',
         cases:[
           {line:'Challenge → solution → adoption',summary:'After observing repeated package revisions and approval delays, I built an AI-assisted calculator for configurations based on target profitability.',contribution:'My role · Identifying the problem, planning and building the tool',relevance:'Role relevance · Pricing-related reasoning and sales workflow improvement',asset:'Recreated demo UI · all model names, prices, margins and quantities are fictional'},
-          {line:'Product information → localization → sales',summary:'Separated catalogues by regulatory and sales availability and localized technical language and product USP materials.',contribution:'My role · 2 catalogues, USP posters, approximately 15 package flyers',relevance:'Role relevance · Product information, localization, sales assets',asset:'Catalogues and USP visuals: pending publication approval'},
+          {line:'Product information → localization → sales',summary:'Separated catalogues by regulatory and sales availability and localized technical language and product USP materials.',contribution:'My role · 2 catalogues, USP posters, approximately 15 package flyers',relevance:'Role relevance · Product information, localization, sales assets',asset:'Public-safe recreated catalogue, USP, and flyer visuals in the full case study'},
           {line:'Research → UX planning → implementation',summary:'Used competitor research to plan Russian customer-focused website content and simpler seminar registration within brand guidelines.',contribution:'My role · Competitor research, localized content, registration UX planning',relevance:'Role relevance · Market analysis, customer insight, localization',asset:'Before-and-after screenshots: pending publication approval'}
         ]
       }
@@ -188,6 +188,15 @@
         if(visual){
           visual.classList.add('demo-project-visual');
           visual.innerHTML='<div class="demo-visual-label">DIO SALE · FICTIONAL DEMO</div><img src="./assets/diosale-demo-calculation.svg" loading="lazy" alt="Fictional demonstration of the sales margin calculator"><div class="demo-visual-foot">REAL WORKFLOW / FICTIONAL VALUES</div>';
+        }
+      }
+      if(i===1) {
+        const labels={ko:'카탈로그 · USP · 패키지 프로젝트 상세 보기 ↗',ru:'Смотреть кейс по каталогам и USP ↗',en:'Explore product localization case study ↗'};
+        strip.innerHTML += '<a class="case-cta" href="./product-localization.html?lang='+encodeURIComponent(lang)+'">'+esc(labels[lang]||labels.en)+' <span>RECREATED VISUALS</span></a>';
+        const visual=card.querySelector('.project-visual');
+        if(visual){
+          visual.classList.add('catalogue-project-visual');
+          visual.innerHTML='<div class="catalogue-thumb"><small>PRODUCT · LOCALIZATION</small><b>КАТАЛОГ<br>ПРОДУКЦИИ</b><span>RUSSIAN MARKET</span></div><div class="catalogue-visual-foot">CATALOGUE / USP / SALES FLYERS</div>';
         }
       }
       const details=body.querySelector('details');
