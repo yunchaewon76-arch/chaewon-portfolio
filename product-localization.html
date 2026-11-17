@@ -12,7 +12,7 @@ function renderGallery(){
   $('gallery-grid').innerHTML=chosen.map(item=>{
     const title=item.name||item.title[lang]||item.title.en;
     const external=item.source==='official';
-    const target=external?item.url:('./work-pdf.html?slug='+encodeURIComponent(item.slug));
+    const target=external?item.url:('./assets/work/project-02/pdf/'+encodeURIComponent(item.slug)+'.pdf');
     const image=external?'<div class="pdf-preview"><span>PDF</span><small>OFFICIAL SOURCE</small></div>':'<img loading="lazy" src="'+item.src+'" alt="'+esc(title)+'">';
     return '<a class="gallery-item" href="'+target+'" target="_blank" rel="noopener noreferrer" aria-label="'+esc(title)+' PDF">'+image+'<span class="item-caption"><small>'+esc(external?d.pdfOfficial:d.pdfExcerpt)+'</small><strong>'+esc(title)+'</strong><span class="pdf-open">'+esc(d.pdfLabel)+'</span></span></a>';
   }).join('');
