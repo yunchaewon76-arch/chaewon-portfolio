@@ -157,7 +157,7 @@ function render(lang){const d=DATA[lang]||DATA.ko;document.documentElement.lang=
 document.title='PROJECT 04 · SNS & SMM | Yoon Chae Won';
 $('nav').innerHTML=d.nav.slice(0,4).map((x,i)=>'<a href="#'+['challenge','strategy','content','kpi'][i]+'">'+esc(x)+'</a>').join('');
 const ids=['hero-copy','challenge-title','challenge-lead','challenge-big','challenge-detail','strategy-title','strategy-lead','target-title','target-copy','agency-title','agency-copy','agency-result','ownership-title','ownership-lead','team1','team1desc','team2','team2desc','team3','team3desc','content-title','content-lead','kpi-title','kpi-lead','result-title','result-lead','result-label','result-detail','result-note','takeaway-title','takeaway-copy','back','evidence'];
-ids.forEach(id=>$(id).textContent=d[id.replace(/-([a-z])/g,(_,c)=>c.toUpperCase())]);
+ids.forEach(id=>{const node=$(id);if(node)node.textContent=d[id.replace(/-([a-z])/g,(_,c)=>c.toUpperCase())]||'';});
 $('hero-title').innerHTML=d.heroTitle;
 $('tags').innerHTML=d.tags.map(x=>'<span>'+esc(x)+'</span>').join('');
 $('priorities').innerHTML=d.priorities.map((x,i)=>'<div class="priority"><span>0'+(i+1)+'</span><div><b>'+esc(x[0])+'</b><em>'+esc(x[1])+'</em></div></div>').join('');
